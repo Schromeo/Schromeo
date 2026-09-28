@@ -14,11 +14,13 @@ A collaborative platform for orchestrating and coordinating multiple AI agents i
 - Extensible agent framework for diverse AI capabilities
 
 ### [SledTrace](https://github.com/Schromeo/SledTrace)
-A local-first platform for tracing, evaluating, and debugging RAG workflows.
+An open-source, local-first observability and debugging tool for RAG pipelines. Published on PyPI (v0.7.1).
 
-- Python tracing SDK, Go collector, SQLite persistence, and React dashboard
-- Deterministic diagnostics for retrieval, grounding, conflict, and numeric failures
-- Docker Compose quickstart and API-key-free reference scenarios
+- Full-stack implementation: Python SDK, Go collector, SQLite persistence, and React dashboard
+- Deterministic diagnostic engine with 7 built-in warning rules for retrieval, grounding, and conflict detection
+- Explicit OpenAI Responses usage recording and indicative cost estimation for supported models
+- Docker Compose quickstart, deterministic local demo, and zero-dependency reference application
+- Evidence-backed diagnostic warnings with recommended actions and numeric comparison blocks
 
 ### [VecDB](https://github.com/Schromeo/VecDBMVP)
 A from-scratch persistent vector search engine implemented in C++.
@@ -46,7 +48,7 @@ RAG · LLM Evaluation · Vector Search · HNSW · pgvector · Multi-Agent System
 ## Currently
 
 - Architecting multi-agent coordination systems with real-time communication
-- Improving SledTrace's evaluation and debugging capabilities
+- Expanding SledTrace's evaluation and multi-step agent trace handling capabilities
 - Exploring opportunities in Applied AI, AI Infrastructure, and ML Systems
 
 [LinkedIn](https://linkedin.com/in/yisong-cheng)
